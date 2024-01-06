@@ -20,4 +20,10 @@ public class ProductController:Controller{
         ViewData["Products"]=products;
         return View();
     }
+
+    public IActionResult AddProduct(int pid,String pname,String pdesc,float price){
+        Product newprod = new Product{ProdID=pid,ProdName=pname,ProdDesc=pdesc,ProdPrice=price};
+        Console.WriteLine(_svc.Insert(newprod));
+        return View();
+    }
 }

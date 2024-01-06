@@ -2,11 +2,11 @@ namespace PRODApp.Models;
 [Serializable]
 public class Product{
 
-    public int prodID{get;set;}
-    public String prodName{get;set;}
-    public String prodDesc{get;set;}
+    public int ProdID{get;set;}
+    public String ProdName{get;set;}
+    public String ProdDesc{get;set;}
 
-    public float prodPrice{get;set;}
+    public float ProdPrice{get;set;}
 
 
     

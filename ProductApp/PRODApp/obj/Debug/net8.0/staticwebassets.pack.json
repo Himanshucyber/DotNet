@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\Projects\\DotNet\\ProductApp\\PRODApp\\wwwroot\\images\\Transflower.jpg",
+      "PackagePath": "staticwebassets\\images\\Transflower.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\Projects\\DotNet\\ProductApp\\PRODApp\\wwwroot\\images\\img_avatar2.png",
+      "PackagePath": "staticwebassets\\images\\img_avatar2.png"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\Projects\\DotNet\\ProductApp\\PRODApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

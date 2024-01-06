@@ -1,0 +1,82 @@
+<style>
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password],input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+</style>
+
+
+<h2>Login Form</h2>
+
+<form action="/product/addproduct" method="post">
+  
+
+  <div class="container">
+    <label for="pid"><b>Product ID </b></label>
+    <input type="number" placeholder="Enter Product ID" name="pid" required>
+
+    <label for="pname"><b>Product Name</b></label>
+    <input type="text" placeholder="Enter Product Name" name="pname" required>
+
+    <label for="pdesc"><b>Description</b></label>
+    <input type="text" placeholder="Enter Product Description" name="pdesc" required>
+
+    <label for="price"><b>Price</b></label>
+    <input type="number" placeholder="Enter Product Price" name="price" required>
+        
+    <button type="submit">Add Product</button>
+    
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    
+  </div>
+</form>
