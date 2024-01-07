@@ -12,9 +12,7 @@ public class ProductServices:IProductService{
   
     public List<Product> GetAll(){
         
-       products= mgr.DeSerialize(filename);
-        products.Add(new Product {ProdID=11,ProdName="Caspian Bottle",ProdDesc="BlackBottle",ProdPrice=1999.24f});
-        mgr.Serialize(products,filename);
+       products= mgr.DeSerialize(filename); 
         return products;
     }
 

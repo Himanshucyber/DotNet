@@ -2,7 +2,14 @@ using PRODApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// builder.Services.AddSingleton<IProductService, ProductServices>();
+// builder.services.AddSingleton<IUserService, UserServices>();
+
+
 builder.Services.AddSingleton<IProductService, ProductServices>();
+builder.Services.AddSingleton<IUserService, UserServices>();
+
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

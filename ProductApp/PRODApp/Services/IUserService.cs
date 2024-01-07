@@ -1,13 +1,21 @@
 using PRODApp.Models;
 
-namespace PRODApp.Repositories;
+namespace PRODApp.Services;
 
 public interface IUserService{
 
 
-    public bool Register(User user);
 
-    public bool login(String email, string password);
+
+     public List<User> GetAll();
+
+     public bool Insert(User user);
+
+     public bool Update();
+
+     public bool Delete();
+
+
 
 
 }
