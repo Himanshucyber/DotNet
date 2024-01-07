@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\bin\Debug\net8.0\HDFCBanking.exe
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\bin\Debug\net8.0\HDFCBanking.deps.json
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\bin\Debug\net8.0\HDFCBanking.runtimeconfig.json
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\bin\Debug\net8.0\HDFCBanking.dll
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\bin\Debug\net8.0\HDFCBanking.pdb
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\obj\Debug\net8.0\HDFCBanking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\obj\Debug\net8.0\HDFCBanking.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\obj\Debug\net8.0\HDFCBanking.AssemblyInfo.cs
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\obj\Debug\net8.0\HDFCBanking.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\obj\Debug\net8.0\HDFCBanking.sourcelink.json
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\obj\Debug\net8.0\HDFCBanking.dll
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\obj\Debug\net8.0\refint\HDFCBanking.dll
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\obj\Debug\net8.0\HDFCBanking.pdb
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\obj\Debug\net8.0\HDFCBanking.genruntimeconfig.cache
+C:\Users\HP\Desktop\Projects\DotNet\HDFCBanking\obj\Debug\net8.0\ref\HDFCBanking.dll

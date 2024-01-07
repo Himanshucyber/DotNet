@@ -18,6 +18,18 @@ public Account(String accountNum,String holderName){
      this.balance=500;
 }
 
+public bool deposite(int amount){
+
+this.balance=+amount;
+}
+
+public bool withdraw(int amount){
+     this.balance=-amount;
+}
+public void displayDetails(){
+     Console.WriteLine("Account Number : "+ this.accountNum +" Name : "+ this.holderName);
+}
+
 
 
 

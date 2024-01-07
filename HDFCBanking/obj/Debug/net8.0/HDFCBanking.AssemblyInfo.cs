@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HDFCBanking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ca1cd8ac9d273e73aee706c38a7ab7422dba997")]
 [assembly: System.Reflection.AssemblyProductAttribute("HDFCBanking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HDFCBanking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
