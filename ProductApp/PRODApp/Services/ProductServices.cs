@@ -21,11 +21,12 @@ public class ProductServices:IProductService{
     }
 
     public bool Insert(Product prod){
-        products= mgr.DeSerialize(filename);
-        products.Add(prod);
+       // products= mgr.DeSerialize(filename);
+      bool result=dbmgr.Insert(prod);
+        // products.Add(prod);
         //Serialize(List<Product> products,string fileName)
-        mgr.Serialize(products,filename);
-        return true;
+        // mgr.Serialize(products,filename);
+        return result;
     }
     public bool Update(){
         return true;

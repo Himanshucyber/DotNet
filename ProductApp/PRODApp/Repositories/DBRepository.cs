@@ -9,13 +9,15 @@ public class MySqlDBManger{
 
         }
 
-   public List<Product> GetAll(){
-        List<Product> products = new List<Product>();
+         List<Product> products = new List<Product>();
 //To Get Connection create obj of MySqlConnection
         MySqlConnection con = new MySqlConnection();
 // 
-        con.ConnectionString=@"server=localhost; port=3306; user=root; password=Himanshu; database=dotnet";
+       
 
+   public List<Product> GetAll(){
+
+       con.ConnectionString=@"server=localhost; port=3306; user=root; password=Himanshu; database=dotnet";
         MySqlCommand cmd = new MySqlCommand();
 
         cmd.Connection=con;
@@ -50,6 +52,44 @@ public class MySqlDBManger{
         }
 return products;
    }
+
+
+   public bool Insert(Product prod){
+
+    con.ConnectionString=@"server=localhost; port=3306; user=root; password=Himanshu; database=dotnet";
+    MySqlCommand cmd = new MySqlCommand();
+
+    cmd.Connection = con;
+    
+    // Assuming your products table has columns: prodId, prodName, prodDesc, prodPrice
+    cmd.CommandText = "INSERT INTO products (prodId, prodName, prodDesc, prodPrice) VALUES (@prodId, @prodName, @prodDesc, @prodPrice)";
+
+    // Add parameters to prevent SQL injection
+    cmd.Parameters.AddWithValue("@prodId", prod.ProdID);
+    cmd.Parameters.AddWithValue("@prodName", prod.ProdName);
+    cmd.Parameters.AddWithValue("@prodDesc", prod.ProdDesc);
+    cmd.Parameters.AddWithValue("@prodPrice", prod.ProdPrice);
+
+    try{
+        con.Open();
+        int rowsAffected = cmd.ExecuteNonQuery();
+
+        // Check if the insertion was successful
+        return rowsAffected > 0;
+    }
+    catch(Exception e){
+        Console.WriteLine(e.Message);
+        return false;
+    }
+    finally{
+        con.Close();
+    }
+}
+
+
+
+
+   
 
 
 }
