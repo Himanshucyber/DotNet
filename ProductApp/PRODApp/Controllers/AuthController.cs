@@ -39,7 +39,7 @@ public IActionResult Register(String email,String fname,String lname,String psw)
      Console.WriteLine(_svc.Insert(newUser));
        
 
-return View;
+return View();
 }
 
 
