@@ -2,6 +2,7 @@ using PRODApp.Services;
 using PRODApp.Models;
 using PRODApp.Services;
 using PRODApp.Repositories;
+using PRODApp.Repository;
 
 public class ProductServices:IProductService{
 
@@ -10,9 +11,12 @@ public class ProductServices:IProductService{
  RepositoryManager mgr = new RepositoryManager();
   String filename=@"C:\Users\HP\Desktop\Projects\DotNet\ProductApp/ProductApp.json";
   
+   MySqlDBManger dbmgr=new MySqlDBManger();
     public List<Product> GetAll(){
         
-       products= mgr.DeSerialize(filename); 
+    //    products= mgr.DeSerialize(filename); 
+
+    products=dbmgr.GetAll();
         return products;
     }
 
